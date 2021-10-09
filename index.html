@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>jacqueline truong</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+  @import url(https://fonts.googleapis.com/css2?family=Sarina&display=swap);
+  body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+  h1 {
+    padding-top: 130px;
+    font-size: 52px;
+  }
+  h3 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+  }
+  h5 {
+    font-size:30px;
+  }
+  h4 {
+    padding-bottom: 30px;
+  }
+  div {
+    animation-delay: 3s;
+    animation-duration: 3ms;
+  }
+  .w3-quarter img{
+    margin-bottom: -6px; 
+    cursor: pointer;
+  }
+  .secondimg {
+    animation-delay: 2s;
+  }
+  .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+  .crop {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .crop img {
+    width: 400px;
+    height: 300px;
+    margin: -55px 0 0 -100px;
+  }
+  .center-cropped {
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .headertitle {
+    color: #fff;
+    font-size: 3rem;
+    font-family: Sarina;
+    text-decoration: none;
+    text-shadow: 0 3px 10px #bd562a;
+  }
+  .headeritem {
+    margin-right: 1.3rem;
+  }
+  .headeritem:hover {
+    color:#fff
+  }
+  .gallery {
+    padding:10px;
+  }  
+  .hide {
+    color:transparent;
+  }
+  .fade-in {
+    animation: fade-in ease 5s;
+}
+</style>
+
+
+<body class="w3-light-grey">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">X</a> 
+  <a href="#hello" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">hello</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">contact</a>
+  <a href="#ps" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">photoshop</a>
+  <a href="#ai" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">illustrator</a>
+  <a href="#poster" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">posters</a>
+  <a href="#sum" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">summary</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-animate-opacity w3-container w3-center w3-top w3-white w3-xlarge w3-padding-16">
+  <span>j a c q u e l i n e  t r u o n g | art portfolio</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a> 
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+  
+  <h1 class="w3-animate-opacity w3-center" id="hello">hello,</h1>
+  <h3 class="w3-animate-opacity w3-center">i'm jacqueline, and this is my art portfolio.</h3>
+  <h4 class="w3-animate-opacity w3-center" id="contact">(pst! i'm new to webdev so this site is still wonky...)</h4>
+
+  <div class="w3-container w3-light-grey">
+    
+  </div>
+
+  <!-- Contact section -->
+  <div class=" w3-animate-opacity w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-animate-opacity w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b></b></h4>
+      
+      <div class=" w3-animate-opacity w3-animate-bottom w3-center">
+        <img style="text-align: left;"src="art/github.png" class="gallery" alt="github" width="100"><p><b><i>jacquelinetruong</i></b></p></img>
+
+        <hr/>
+
+        <img src="art/discord.png" class="gallery" width="100"><p><b><i>jackfruit#6079</i></b></p>
+      </div> 
+
+      <hr/>
+    
+      <div class="w3-animate-opacity w3-animate-bottom w3-center">
+        <img src="art/ig.png"width="120" class="gallery"><p><b><i>jacquellinetruong</i></b></p>
+
+        <hr/>
+
+        <img src="art/tiktok.png"width="100" class="gallery"><p><b><i>jackfruiit</i></b></p>
+      </div>
+  </div>
+
+  <!-- Intro -->
+
+  <h1 class="w3-animate-opacity w3-center w3-animate-bottom">let's get started.</h1>
+  <h4 class="w3-animate-opacity w3-center w3-animate-bottom">as we keep scrolling down, we'll see my most recent work <br/>from the past 3 years.
+  </h4>
+  <h4 class="w3-animate-opacity w3-center w3-animate-bottom">i'm going to walk you through my design portfolio, <br/>
+  but feel free to browse at your own pace by using the menu at the top right.
+  </h4>
+
+  <h4 class="w3-animate-opacity w3-center w3-animate-bottom">p.s., click any picture to learn more about it!</h4>
+
+  <!-- Photoshop -->
+
+  <hr id="ps"/>
+  <hr/>
+  <hr/>
+  <hr/>
+
+  <h5 class="w3-animate-opacity w3-center w3-animate-bottom">Photoshop</h5>
+  <h4 class="w3-animate-opacity w3-center w3-animate-bottom">6 years of experience</h4>
+
+  <div class="w3-animate-opacity w3-padding-16">
+    <div class="w3-animate-opacity w3-quarter w3-animate-bottom" id="top">
+      <img src="art/gorden.jpg" style="width:100%" onclick="onClick(this)" alt="for my friend Gorden. inspired by Weathering With You and Your Name.">
+      <img class="secondimg" src="art/MothersDay2021.jpg" style="width:100%" onclick="onClick(this)" alt="my mom dreams of living here.">
+      <img src="art/scared-of-love.jpg" style="width:100%" onclick="onClick(this)" alt="bittersweet. two lovers who can't be together.">
+   </div>
+    
+   <div class="w3-animate-opacity w3-quarter w3-animate-bottom">
+      <img src="art/snowmountains.jpg" style="width:100%" onclick="onClick(this)" alt="me experimenting with a new artstyle.">
+      <img src="art/SpacePartner.jpg" style="width:100%" onclick="onClick(this)" alt="i made this for an old friend of mine. we referred to each other as space partner.">
+      <img src="art/ahri.jpg" style="width:100%" onclick="onClick(this)" alt="i'm not too experienced in drawing bodies, so i tried to practice by drawing Ahri from League of Legends.">
+    </div>
+    
+    <div class="w3-animate-opacity w3-quarter w3-center w3-animate-bottom">
+      <img src="art/idk.jpg" style="width:100%" onclick="onClick(this)" alt="1 hour art challenge at 2AM. yep.">
+      <img src="art/tiktoktrans.jpg" style="width:100%" onclick="onClick(this)" alt="imagine finding a pond like this in the forest...">
+      <img src="art/TRUONGSeries[Admiration2].jpg" style="width:100%" onclick="onClick(this)" alt="i wish this were real.">
+    </div>
+
+    <div class="w3-animate-opacity w3-quarter w3-animate-bottom">
+      <img src="art/DX-52.jpg" style="width:100%" onclick="onClick(this)" alt="look at the bunnies!">
+      <img src="art/Cobalt.jpg" style="width:100%" onclick="onClick(this)" alt="my character, Cobalt, discovering climate.">
+      <img src="art/Tenebris.jpg" style="width:100%" onclick="onClick(this)" alt="the robot of darkness, Tenebris, discovering the beauty of nature.">
+    </div>
+  </div>
+
+  <h1 class="hide">xd</h1>
+
+  <!-- Illustrator -->
+  
+  <hr id="ai"/>
+  <hr/>
+  <hr/>
+  <hr/>
+
+  <h5 class="w3-animate-opacity w3-center w3-animate-bottom">Illustrator</h5>
+  <h4 class="w3-animate-opacity w3-center w3-animate-bottom">6 years of (on and off) experience</h4>
+
+  <div class="w3-animate-opacity w3-center">
+    <div class=" w3-animate-opacity w3-third w3-animate-bottom w3-center" id="top">
+      <img src="art/aquathor.jpg" style="width:100%" onclick="onClick(this)" alt="combined DC Aquaman and Marvel Thor into... well, Aquathor.">
+      <img src="art/ac.jpg" style="width:100%" onclick="onClick(this)" alt="my highschool's 2019-2020 arts council apparel design. by me.">
+   </div>
+    
+   <div class="w3-animate-opacity w3-third w3-center w3-animate-bottom">
+      <img src="art/LashBakery_Chocolate.jpg" style="width:100%" onclick="onClick(this)" alt="my best friend's brand packaging, in style Chocolate.">
+      <img src="art/dance.jpg" style="width:100%" onclick="onClick(this)" alt="my highschool's 2019-2020 dance team apparel design.">
+    </div>
+    
+    <div class="w3-animate-opacity w3-third w3-animate-bottom">
+      <img src="art/LashBakery_Butter.jpg" style="width:100%" onclick="onClick(this)" alt="my best friend's brand packaging, in style Butter">
+      <img src="art/unnamed.jpg" style="width:100%" onclick="onClick(this)" alt="my highschool's 2018-2019 reach team apparel design.">
+    </div>
+  </div>
+
+  <h1 class="hide">xd</h1>
+
+
+  <!-- Posters -->
+
+  <hr id="poster"/>
+  <hr/>
+  <hr/>
+  <hr/>
+
+  <h5 class="w3-animate-opacity w3-center w3-animate-bottom">posters</h5>
+  <h4 class="w3-animate-opacity w3-center w3-animate-bottom">combination of Photoshop and Illustrator</h4>
+
+  <div class="w3-animate-opacity w3-center">
+    <div class="w3-animate-opacity w3-third">
+      <img src="art/FestivaloftheArtsPoster.jpg" style="width:100%" onclick="onClick(this)" alt="drew an abstract design on PS, text on AI.">
+    </div>
+
+    <div class="w3-animate-opacity w3-third">
+      <img src="art/TheWeddingPosterLandscape.jpg" style="width:100%" onclick="onClick(this)" alt="background on PS, text on AI.">
+    </div>
+
+    <div class="w3-animate-opacity w3-third">
+      <img src="art/BreakfastPoster.jpg" style="width:100%" onclick="onClick(this)" alt="fruits on PS, rest on AI.">
+    </div>
+  </div>
+
+
+  <!-- Summary -->
+
+  <h1 class="hide">lol</h1>
+
+  <hr id="sum"/>
+  <hr/>
+  <hr/>
+  <hr/>
+
+  <h5 class="w3-animate-opacity w3-center w3-animate-bottom">summary</h5>
+  <h4 class="w3-animate-opacity w3-center w3-animate-bottom">
+    <ul>
+      <li>i like making surrealistic landscapes</li>
+      <li>i have experience making logos and posters/graphics</li>
+      <li>i make things pretty!</li>
+    </ul>
+  </h4>
+
+  <h1 class="hide">d</h1>
+
+  <h3 class="w3-animate-opacity w3-center w3-animate-bottom">if you've made it this far, thank you!</h3>
+
+
+  <!-- Modal for full size images on click-->
+
+  <div id="modal01" class="w3-modal w3-" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-animate-opacity w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+
+</script>
+
+
+</body>
+</html>
